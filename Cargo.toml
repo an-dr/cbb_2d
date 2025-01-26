@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "cbb_2d"
+version = "0.3.0"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+
+[profile.dev]
+opt-level = 1
+
+[patch.crates-io]
+cbb_2d = {path = './'}
+
+[dependencies]
+gamepads = "0.1.6"
+getset = "0.1.4"
+log = "0.4"
+macroquad = "0.4.13"
+macroquad-tiled = "0.2.1"
+parry2d = "0.18.0"
+rand = "0.8"
+simplelog = "0.12"
