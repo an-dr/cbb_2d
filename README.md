@@ -1,6 +1,6 @@
-# Could Be Better (CBB) Game Engine
+# Could Be Better (CBB) Game Framework
 
-CBB Game Engine is a simple 2D meta-game engine based on [macroquad](https://github.com/not-fl3/macroquad). The quality could be better, but it works.
+CBB Game Framework is a simple 2D game framework based on [macroquad](https://github.com/not-fl3/macroquad). The quality could be better, but it works.
 
 ## Features
 
